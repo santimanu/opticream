@@ -1,88 +1,21 @@
-# Welcome to React Router!
+Opticream: AI-Powered Recipe Generation & Management
 
-A modern, production-ready template for building full-stack React applications using React Router.
+Opticream is a full-stack web platform designed for Ninja Creami enthusiasts, enabling the management and optimization of ice cream recipes through Artificial Intelligence. The project addresses the challenge of balancing ingredients to achieve perfect textures by using generative models to automate personalized recipe creation.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+- Key Features
 
-## Features
+    AI Recipe Generation: Native integration with the Gemini API to generate recipes based on available ingredients, featuring structured JSON output for precise frontend data hydration.
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+    Full-stack Architecture: Built with React, Remix / React Router v7, and TypeScript, ensuring strong typing and optimized production performance.
 
-## Getting Started
+    Robust Backend: Implementation of Supabase (PostgreSQL) for data management, utilizing Row Level Security (RLS) policies to ensure data privacy and security on a per-user basis.
 
-### Installation
+    Modern UI/UX: Stylized interface using Tailwind CSS, featuring native Dark Mode support and a fully responsive design.
 
-Install the dependencies:
+- Tech Stack
 
-```bash
-npm install
-```
+    Frontend: React, Remix, TypeScript, Tailwind CSS.
 
-### Development
+    Backend: Supabase (PostgreSQL, Auth, RLS).
 
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
-# opticream
+    AI: Google Gemini API (Prompt Engineering & JSON Output).
